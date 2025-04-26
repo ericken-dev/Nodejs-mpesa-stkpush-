@@ -1,0 +1,19 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "dependencies": {
+    ...
+  },
+  "nodemonConfig": {
+    "watch": [
+      "."
+    ],
+    "ext": "js",
+    "ignore": [
+      "node_modules"
+    ],
+    "env": {
+      "NODE_PATH": "../node_modules"
+    }
+  }
+}
